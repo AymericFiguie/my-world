@@ -67,7 +67,8 @@ export default function MyScene() {
           {/* <OrbitControls ref={ref} target={[0, 0, 0]} /> */}
         </Suspense>
       </Canvas>
-      <div style={{ height: '30000px' }} />
+      <div style={{ height: '20000px' }} />
+      <div>test</div>
     </>
   );
 }
