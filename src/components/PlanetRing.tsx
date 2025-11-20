@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 
 export function PlanetRing(props) {
-  const { nodes, materials } = useGLTF('/PlanetRing.glb');
+  const { nodes, materials } = useGLTF('./PlanetRing.glb');
 
   const groupRef = useRef();
 

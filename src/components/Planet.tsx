@@ -1,7 +1,7 @@
 import { useGLTF } from '@react-three/drei';
 
 export default function Planet(props) {
-  const { nodes, materials } = useGLTF('/Planet.glb');
+  const { nodes, materials } = useGLTF('./Planet.glb');
   return (
     <group {...props} dispose={null}>
       <mesh

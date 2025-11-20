@@ -2,7 +2,7 @@ import { useGLTF } from '@react-three/drei';
 import { forwardRef } from 'react';
 
 const SpaceShip = forwardRef((props, ref) => {
-  const { nodes, materials } = useGLTF('/Spaceship.glb');
+  const { nodes, materials } = useGLTF('./Spaceship.glb');
   return (
     <group
       ref={ref} // attach ref here
@@ -23,4 +23,4 @@ const SpaceShip = forwardRef((props, ref) => {
 //
 export default SpaceShip;
 
-useGLTF.preload('/Spaceship.glb');
+useGLTF.preload('./Spaceship.glb');

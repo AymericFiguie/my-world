@@ -3,7 +3,7 @@ import { useGLTF, useAnimations } from '@react-three/drei';
 
 export function Astronaut(props) {
   const group = useRef(null);
-  const { nodes, materials, animations } = useGLTF('/Astronaut.glb');
+  const { nodes, materials, animations } = useGLTF('./Astronaut.glb');
   const { actions } = useAnimations(animations, group);
 
   console.log(actions);
